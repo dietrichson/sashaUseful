@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1490797690174.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1511353052",
+    "id" : "ED20CF5D",
+    "lastKnownWriteTime" : 1495049630,
+    "last_content_update" : 1495049630232,
+    "path" : "~/sashaUseful/R/histogram_with_density_line.R",
+    "project_path" : "R/histogram_with_density_line.R",
+    "properties" : {
+        "cursorPosition" : "26,0",
+        "scrollLine" : "4",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

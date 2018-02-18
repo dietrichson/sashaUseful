@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1509030270952.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "832045162",
+    "id" : "88EC6ACD",
+    "lastKnownWriteTime" : 1489077143,
+    "last_content_update" : 1489077143,
+    "path" : "~/sashaUseful/R/pretty_summary.R",
+    "project_path" : "R/pretty_summary.R",
+    "properties" : {
+        "cursorPosition" : "14,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

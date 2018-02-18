@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1505483033386.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3407338720",
+    "id" : "C2C95C2C",
+    "lastKnownWriteTime" : 1482521135,
+    "last_content_update" : 1482521135,
+    "path" : "~/sashaUseful/R/F_ggtitle.R",
+    "project_path" : "R/F_ggtitle.R",
+    "properties" : {
+        "cursorPosition" : "24,18",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

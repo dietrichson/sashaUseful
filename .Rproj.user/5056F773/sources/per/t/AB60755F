@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1505483040940.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1565212464",
+    "id" : "AB60755F",
+    "lastKnownWriteTime" : 1482601922,
+    "last_content_update" : 1482601922,
+    "path" : "~/sashaUseful/R/fixed_digits.R",
+    "project_path" : "R/fixed_digits.R",
+    "properties" : {
+        "cursorPosition" : "1,10",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

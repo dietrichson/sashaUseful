@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1508871578718.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1537563777",
+    "id" : "931BAD55",
+    "lastKnownWriteTime" : 1482424254,
+    "last_content_update" : 1482424254,
+    "path" : "~/sashaUseful/R/nice_format.R",
+    "project_path" : "R/nice_format.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,20 @@
+
+# Pie/Donut chart
+rhtmlDonut::Donut(values = browser.data$share,
+                  labels = browser.data$labels,
+                  groups = browser.data$groups,
+                  suffix = "%")
+
+# Donut with hole in the middle
+rhtmlDonut::Donut(values = browser.data$share,
+                  labels = browser.data$labels,
+                  labels.inner = TRUE,
+                  suffix = "%", inner.radius = "80%") #makes it a real donut
+
+
+
+# Treemap
+m = t(as.matrix(`GDP in Billions`))
+rownames(m) = "GDP in $US Billions"
+colnames(m) = country
+canvasXpress::canvasXpress(data=m, graphType="Treemap", width = 700, height = 550)

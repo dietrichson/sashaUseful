@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "#' Generate Histogram with Density Line\n#'\n#' @param myData data.frame with raw data\n#' @param binwidth binwidth for the histogram\n#' @param variable variable to be plotted\n#'\n#' @return a ggplot object histogram whith densityline overplotted\n#' @export\ngetHistogramWithDensityLine <- function(myData,binwidth=.1,variable=\"x\"){ #TODO: Move to package\n  myData %>%\n    ggplot(aes_string(paste0(\"x=\",variable))) +\n    geom_histogram(color=\"red\",fill='red',alpha=.4,binwidth = binwidth )+\n    geom_density(aes(y=..density..*binwidth*..n..),color=\"blue\",lty=2)\n}\n#' Generate Histogram with Density Line\n#'\n#' @param myData data.frame with raw data\n#' @param binwidth binwidth for the histogram\n#' @param variable variable to be plotted\n#'\n#' @return a ggplot object histogram whith densityline overplotted\n#' @export\ngetHistogramWithDensityLine2 <- function(myData,binwidth=.1,variable=\"x\"){\n  qplot(myData[variable], geom = 'blank') +\n    geom_histogram(aes(y = ..density..)) +\n    geom_line(aes(y = ..density.., colour = 'Empirical'), stat = 'density',color='blue')\n\n  #+\n    #geom_histogram(aes(y = ..count..), alpha = 0.4) +\n    #scale_y_continuous(labels=function(x){x*binwidth})\n}\n",
+    "created" : 1490797690174.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1511353052",
+    "id" : "ED20CF5D",
+    "lastKnownWriteTime" : 1495049630,
+    "last_content_update" : 1495049630232,
+    "path" : "~/sashaUseful/R/histogram_with_density_line.R",
+    "project_path" : "R/histogram_with_density_line.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
