@@ -4,8 +4,9 @@
 \alias{latex.lm}
 \title{Print linear model object as latex formula}
 \usage{
-latex.lm(object, file = "", math.env = c("$", "$"), estimates = "none",
-  abbreviate = TRUE, abbrev.length = 8, digits = 3)
+latex.lm(object, file = "", math.env = c("$", "$"),
+  estimates = "none", abbreviate = TRUE, abbrev.length = 8,
+  digits = 3)
 }
 \arguments{
 \item{object}{the linear object}

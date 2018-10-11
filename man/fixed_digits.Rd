@@ -6,3 +6,6 @@
 \usage{
 fixed_digits(xs, n = 2)
 }
+\description{
+Print number with fixed digits
+}

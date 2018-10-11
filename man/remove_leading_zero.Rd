@@ -6,3 +6,6 @@
 \usage{
 remove_leading_zero(xs)
 }
+\description{
+Remove Leading Zero
+}

@@ -6,3 +6,6 @@
 \usage{
 gCaption(title, subtitle = NULL)
 }
+\description{
+Caption with running count of Figure number
+}

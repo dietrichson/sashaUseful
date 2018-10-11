@@ -6,3 +6,6 @@
 \usage{
 x \%nin\% table
 }
+\description{
+Redefinition of %nin% operator
+}
