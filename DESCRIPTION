@@ -9,4 +9,4 @@ License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 Depends: broom, dplyr, ggplot2, magrittr, stringr
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
