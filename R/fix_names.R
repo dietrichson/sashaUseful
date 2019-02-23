@@ -1,5 +1,3 @@
-library(dplyr)
-library(stringr)
 #' @title Fix Names
 #' @description For Pretty printing statistical models
 #' @import dplyr stringr
