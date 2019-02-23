@@ -3,7 +3,7 @@
 #' Will format all numbers in a data.frame as percentage. And replace NA with string specified in *replace* parameter.
 #' 
 #' 
-#' @param df 
+#' @param df the data.frame to format
 #' @param na.string what to replace NA's with 
 #' @import dplyr
 #' @return a formatted data.frame
