@@ -15,5 +15,6 @@ format_data_frame_percentage(df, na.string = "")
 a formatted data.frame
 }
 \description{
-Will format all numbers in a data.frame as percentage. And replace NA with string specified in *replace* parameter.
+Will format all numbers in a data.frame as percentage. 
+And replace NA with string specified in *na.string* parameter.
 }
