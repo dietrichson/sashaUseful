@@ -1,9 +1,6 @@
-library(dplyr)
-library(broom)
-library(magrittr)
 #' @title Pretty Print
 #' @description Pretty printing for model summaries etc.
-#' @import dplyr broom magrittr
+#' @import dplyr broom
 #' @export
 prettyPrint <- function(m,stars=FALSE){
   UseMethod("prettyPrint",m)
