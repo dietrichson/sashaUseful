@@ -1,7 +1,7 @@
 Package: sashaUseful
 Type: Package
 Title: Collection of Useful Functions
-Version: 0.3.0
+Version: 0.4.0
 Author: Aleksander Dietrichson
 Maintainer: <dietrichson@gmail.com>
 Description: Formatting functions mainly
