@@ -4,12 +4,14 @@
 \alias{format_data_frame_percentage}
 \title{Format data.frame with Percentages}
 \usage{
-format_data_frame_percentage(df, na.string = "")
+format_data_frame_percentage(df, na.string = "", digits = 2)
 }
 \arguments{
 \item{df}{the data.frame to format}
 
 \item{na.string}{what to replace NA's with}
+
+\item{digits}{number of digits to round to}
 }
 \value{
 a formatted data.frame
