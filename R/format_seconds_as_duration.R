@@ -2,7 +2,7 @@
 #'
 #' @param x Vector of seconds (durations). Numeric or coercible to numeric
 #' @param format for consumption by sprintf
-#' @importFrom lubridate seconds_to_period
+#' @importFrom lubridate seconds_to_period minute second
 #' @return a vector of characters
 #' @export
 #' 

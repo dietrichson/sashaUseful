@@ -17,3 +17,8 @@ a vector of characters
 \description{
 Format Seconds Nicely
 }
+\examples{
+seconds_as_duration(c(100,200,3024, 16254))
+seconds_as_duration(c(100,200,3024, 16254), format=NULL)
+seconds_as_duration(c(100,200,3024, 16254), format='\%02dh\%02dm\%02ds')
+}
