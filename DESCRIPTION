@@ -8,5 +8,5 @@ Description: Formatting functions mainly
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-Depends: broom, dplyr, ggplot2, magrittr, stringr
+Depends: broom, dplyr, ggplot2, magrittr, stringr, lubridate
 RoxygenNote: 6.1.1.9000
