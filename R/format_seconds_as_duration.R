@@ -16,7 +16,12 @@ seconds_as_duration<- function(x, format = '%02d:%02d:%02d' ){
   
   td <-x %>% seconds_to_period()
   if(!is.null(format)){
-    ret <- sprintf(format, td@hour, minute(td), second(td))
+    myHours <- 
+      td@day*24 +
+      td@month*30*24+
+      td@year*365*24
+              
+    ret <- sprintf(format, myHours, minute(td), second(td))
   } else(ret = as.character(td))
   ret
 }
